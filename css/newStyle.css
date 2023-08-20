@@ -312,9 +312,6 @@ position: relative;
 }
 
 /* Projects section styles */
-#projects {
-    padding: 50px;
-}
 
 .project-card {
     background-color: #fff;
@@ -417,4 +414,12 @@ body.dark-mode .footer-distributed {
   
 .is-dark .profile-img {
     filter: invert(0)!important; /* Reset filter for images */
+}
+
+/*Contact Us page0*/
+
+.dark-mode .contact_us {
+    background: rgb(144, 133, 133);
+    width: max-content;
+    margin: auto;
 }

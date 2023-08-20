@@ -1238,7 +1238,9 @@ footer {
 	gap: 2.5em;
 	margin: 1.5em;
 }
-
+.dark-mode .project {
+	background: #383838 !important;
+}
 .project {
 	position: relative;
 	height: auto;

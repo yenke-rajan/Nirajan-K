@@ -18,7 +18,7 @@
     <link rel="stylesheet" href="./css/style.css" type="text/css">
     <link rel="stylesheet" href="./css/newStyle.css">
     <title>निराजन खतिवडा | Nirajan Khatiwada</title>
-    <link rel="icon" type="image/x-icon" href="images/Fav_Icon/fav_icon.jpg">
+    <link rel="icon" type="image/x-icon" href="images/Fav_Icon/new-fav-icon.png">
     <script type="module" src="/JS/script.js"></script>
     <script type="module" src="/JS/functions.js"></script>
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
@@ -28,10 +28,11 @@
    
 </style>
 
-<body id="index">
+<body id="index" class="dark-mode">
 
     <header>
-        <div aria-lable="Nirajan Khatiwada Logo Image" role="banner" class="name_logo"> <svg fill="#000000"
+        <div aria-lable="Nirajan Khatiwada Logo Image" role="banner" class="name_logo"> 
+            <svg
                 version="1.0" xmlns="http://www.w3.org/2000/svg" width="300.000000pt" height="94.000000pt"
                 viewBox="0 0 300.000000 94.000000" preserveAspectRatio="xMidYMid meet">
                 <g transform="translate(0.000000,94.000000) scale(0.100000,-0.100000)" stroke="none">
@@ -70,21 +71,23 @@
                     <path
                         d="M2690 227 c-31 -16 -43 -71 -13 -65 12 2 18 12 18 28 0 29 36 40 61 20 19 -16 18 -60 -1 -60 -36 0 -95 -33 -101 -56 -12 -48 46 -72 93 -39 19 13 22 13 27 0 7 -19 40 -19 55 -1 9 11 7 15 -9 19 -18 5 -20 13 -20 76 0 68 -1 72 -26 81 -33 13 -54 12 -84 -3z m80 -115 c0 -31 -36 -57 -65 -46 -27 11 -17 44 18 59 44 20 47 19 47 -13z" />
                 </g>
-            </svg> </div>
+            </svg> 
+        </div>
         <nav>
             <ul>
                 <li class="selected"><a href="#">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="./html_pages/contact_us.html">Contact</a></li>
+                <li><a href="/html_pages/posts.html">Posts</a></li>
+                <li><a href="/html_pages/songs.html">Songs</a></li>
+                <li><a href="/html_pages/projects.html">Projects</a></li>
+                <li><a href="/html_pages/contact_us.html">Contact</a></li>
             </ul>
-            <button id="theme-toggle"><i class="fa-sharp fa-solid fa-cloud-sun" style="color: #343333;"></i></button>
+            <button id="theme-toggle"><i class="fa-sharp fa-solid fa-sun"></i></button>
         </nav>
     </header>
     <section id="home">
         <div class="overlay">
             <h1>Welcome to My Portfolio</h1>
-            <p class="txt-normal">Hi, I'm Nirajan Khatiwada, a passionate graphic designer.</p><br>
+            <p class="txt-normal">Hi, I am Nirajan Khatiwada, A Data Science Enthusiast.</p><br>
             <a href="./html_pages/cv.html" class="cta-button">View CV <ion-icon name="eye-outline"></ion-icon></a>
         </div>
         <div>
@@ -102,22 +105,9 @@
 
                     </div>
                     <div class="service-content-box">
-                        <h4 class="h4 service-item-title">Graphics Design</h4>
+                        <h4 class="h4 service-item-title">Data Science</h4>
                         <p class="service-item-text">
                             I make high-quality print and digital design.
-                        </p>
-                    </div>
-                </li>
-                <li class="service-item">
-                    <div class="service-icon-box">
-
-                        <ion-icon name="images-outline" role="img" class="md hydrated"
-                            aria-label="images outline"></ion-icon>
-                    </div>
-                    <div class="service-content-box">
-                        <h4 class="h4 service-item-title">Photography</h4>
-                        <p class="service-item-text">
-                            I make high-quality photos of any category at a professional level.
                         </p>
                     </div>
                 </li>
@@ -134,12 +124,14 @@
                 </li>
                 <li class="service-item">
                     <div class="service-icon-box">
-                        <ion-icon name="finger-print-outline"></ion-icon>
+                        <ion-icon name="color-palette-outline" role="img" class="md hydrated"
+                            aria-label="color palette outline"></ion-icon>
+
                     </div>
                     <div class="service-content-box">
-                        <h4 class="h4 service-item-title">Artificial Intelligence</h4>
+                        <h4 class="h4 service-item-title">Graphics Design</h4>
                         <p class="service-item-text">
-                            I am working on machine learning module and intrested in Artificial Intilligence.
+                            I make high-quality print and digital design.
                         </p>
                     </div>
                 </li>
@@ -153,7 +145,8 @@
         <h1 class="work-client">Photography </h1>
         <div id="photos">
             <div class="photo_container">
-                <span class="photo photo_1"><img src="/images/Homepage_Image/img_1.jpg" alt="my photos"></span>
+                <p>Photography will be added soon :)</p>
+                <!-- <span class="photo photo_1"><img src="/images/Homepage_Image/img_1.jpg" alt="my photos"></span>
                 <span class="photo photo_2"><img src="/images/Homepage_Image/img_2.jpg" alt="my photos"></span>
                 <span class="photo photo_3"><img src="/images/Homepage_Image/img_3.jpg" alt="my photos"></span>
                 <span class="photo photo_4"><img src="/images/Homepage_Image/img_4.jpg" alt="my photos"></span>
@@ -166,20 +159,32 @@
                 <div class="photo_container_hide_0">
                     <button class="see_less_0 see_less see_more_less">See Less</button>
                     <button class="see_more_0 see_more see_more_less">See More</button>
-                </div>
+                </div> -->
             </div>
         </div><br>
-        <h1 class="work-client">Clients</h1><br>
+        <h1 class="work-client">Organization</h1><br>
         <div class="clients">
-            <img src="https://scontent.fktm8-1.fna.fbcdn.net/v/t39.30808-6/330978614_748423483171147_2252121154416429101_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=174925&_nc_ohc=YChu95EKwngAX8HFnIz&_nc_ht=scontent.fktm8-1.fna&oh=00_AfCTI920jT2jgukxv7Rx6JUkb1Fk_15YSAgIR-8K4lIxRA&oe=64961BD8"
-                alt="client 1">
-            <img src="https://scontent.fktm8-1.fna.fbcdn.net/v/t39.30808-6/318621879_203167222238804_2866713009096845759_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=174925&_nc_ohc=qsks02ggkwoAX-WDWPh&_nc_ht=scontent.fktm8-1.fna&oh=00_AfDFyxYxTsQfjDMCHMzQDARuOAGw-3W-vF4iQVcGkIsW7A&oe=6495FC69"
-                alt="client 2">
-            <img src="https://www.collegenp.com/uploads/2018/02/Amrit-Science-Campus.jpg" alt="client 3">
-            <img src="https://portal.tu.edu.np/medias/IOAASlogo_2022_03_30_11_09_25.png" alt="client 4">
-            <img src="https://scontent.fktm8-1.fna.fbcdn.net/v/t39.30808-6/270391749_4562265330554015_821337544198733445_n.png?_nc_cat=110&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=lGem3YKXikEAX_19oP-&_nc_ht=scontent.fktm8-1.fna&oh=00_AfCWVh8206pCFR0cL8Ycjyrv4KHLwWVAK0i_yd4405J6Ig&oe=649684EB"
-                alt="client 5">
-            <img src="https://osac.org.np/img/osaclogo.png" alt="client 6">
+            <div class="client-img-container">
+                <img src="/images/Homepage_Image/org-1.png" alt="Organization 1">
+                <p class="client-degnitation">Executive Member</p>
+            </div>
+            
+            
+            <div class="client-img-container">
+                <img class="img-toggle-color-black" src="/images/Homepage_Image/org-2.png" alt="Organization 2">
+                <p class="client-degnitation">Campus Executive</p>
+            </div>
+            
+            <div class="client-img-container">
+                <img src="/images/Homepage_Image/org-3.png" alt="Organization 3">
+                <p class="client-degnitation">Campus Ambassador</p>
+            </div>
+            
+            <div class="client-img-container">
+                <img class="img-toggle-color-white" src="/images/Homepage_Image/org-4.png" alt="Organization 4">
+                <p class="client-degnitation">General Member</p>
+            </div>
+            
         </div><br>
     </section>
     <footer class="footer-distributed">
@@ -212,12 +217,12 @@
 
             <div>
                 <i class="fa fa-phone"></i>
-                <p><a href="tel:+9779813293262">+977 98 13293262</a></p>
+                <p><a href="tel:+977981329267">+977 981329267</a></p>
             </div>
 
             <div>
                 <i class="fa fa-envelope"></i>
-                <p><a href="mailto:contact@test.com">contact@test.com</a></p>
+                <p><a href="mailto:yenke.public@gmail.com">yenke.public@gmail.com</a></p>
             </div>
 
         </div>

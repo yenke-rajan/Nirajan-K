@@ -142,8 +142,8 @@ main {
 	margin: .8em;
 	box-shadow: 0px 0px 10px #03263459;
 	border-radius: 10px;
-	background-image: linear-gradient(to right, #e5e2e2, #ebe9ea, #f2f0f1, #f8f8f8, #ffffff);
-	border: 1px solid #d2d0d0;
+	/* background-image: linear-gradient(to right, #e5e2e2, #ebe9ea, #f2f0f1, #f8f8f8, #ffffff); */
+	border: 1px solid #d2d0d060;
 }
 
 main .my_profile_picture {
@@ -1238,7 +1238,9 @@ footer {
 	gap: 2.5em;
 	margin: 1.5em;
 }
-
+.dark-mode .project {
+	background: #383838 !important;
+}
 .project {
 	position: relative;
 	height: auto;
@@ -1413,10 +1415,18 @@ footer {
 	background: #0a4d77d4;
 } 
 /*Privacy Policy page*/
+#privacy_policy main {
+	background-image: linear-gradient(to bottom, #e4cec37d, #b5c89082);
+}
+#privacy_policy.dark-mode main {
+	background-image: linear-gradient(to bottom, #313130, #4c523669)!important;
+    border: 1px solid #828286cc;
+    box-shadow: 0px 0px 10px #e6e4e45c;
+}
 #privacy_policy main,
 #terms_of_use main {
 	display: block;
-	padding: 1em;
+	padding:  20px;
 	font-family: poppins;
 	font-size: 10pt;
 }
@@ -1424,6 +1434,7 @@ footer {
 #terms_of_use main h1 {
 	display: block;
 	font-size: 25pt;
+	line-height: 2;
 	font-weight: 600;
 	font-family: Arial, Helvetica, sans-serif;
 }
@@ -1432,6 +1443,7 @@ footer {
 	display: block;
 	font-size: 15pt;
 	font-weight: 600;
+	line-height: 1.5;
 	margin: .5em auto;
 	font-family: Arial, Helvetica, sans-serif;
 }
@@ -1439,6 +1451,7 @@ footer {
 #terms_of_use main p {
 	display: block;
 	font-weight: 400;
+	line-height: 1.5;
 }
 #privacy_policy main p a,
 #terms_of_use main p a{
@@ -1451,4 +1464,5 @@ footer {
 	display: block;
 	font-weight: 400;
 	margin: 0 0 0 2em;
+	line-height: 1.5;
 }
